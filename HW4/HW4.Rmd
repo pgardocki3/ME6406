@@ -1,0 +1,71 @@
+---
+title: "HW4"
+author: "Patrick Gardocki"
+date: "2023-12-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1 Pose Estimatiom
+
+## 1.a
+
+![](pics/normals.png)
+
+
+## 1.b
+
+![](pics/rt.png)
+
+
+
+# 2. Artificial Neural Network
+
+## 2.a 
+
+There is 1 hidden layer, 16 inputs for each pixel, and 2 outputs for the 2 different structures. 
+
+![](pics/shape.png)
+
+## 2.b
+
+![](pics/img_0483.jpg)
+
+## 2.c
+![](pics/nnerror.png)
+
+
+## 2.d 
+![](pics/O.png)
+
+Based on the output values, the model seems to predict the structure with accuracy.
+
+# 3. Color
+
+## 3.I ACC
+![](pics/der copy.png)
+
+
+![](pics/ACC.png)
+
+
+
+
+## 3.II Color-based Image Segmentation
+
+![](pics/seg.png)
+
+
+
+## 3.III PCA 
+![](pics/CVD.png)
+
+
+
+![](pics/PCA.png)
+
+
+
